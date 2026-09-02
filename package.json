@@ -21,8 +21,7 @@
     "@vercel/config": "0.6.0",
     "eslint": "9.39.1",
     "eslint-config-next": "16.3.3",
-    "typescript": "5.9.2",
-    "vercel": "59.5.0"
+    "typescript": "5.9.2"
   },
   "packageManager": "pnpm@10.17.1"
 }
