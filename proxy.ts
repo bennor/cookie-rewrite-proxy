@@ -31,6 +31,7 @@ export function proxy(request: NextRequest) {
 
   const response = NextResponse.next({
     request: {
+      // This will forward the bot headers. You may wish to exclude them.
       headers: new Headers(request.headers),
     },
   })
